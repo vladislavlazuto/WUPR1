@@ -105,7 +105,7 @@ Q.UA_Control = 40;
 Q.POL_Control = 60;
 Q.total_control = (Q.POL_control + Q.UA_control);
 Q.UA_Control_normalized = (Q.UA_control/Q.total_control);
-Q.POL_Control_normalized = (Q.POL_Control_control/Q.total_control);
+Q.POL_Control_normalized = (Q.POL_Control/Q.total_control);
 
 
 // inter-party relations
