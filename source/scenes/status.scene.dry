@@ -90,15 +90,15 @@ Reformist strength: [+ reformist_strength : strength +], dissent: [+ reformist_d
 
 @paramilitaries
 
-= Paramilitaries
+= Military Situation
 
 Galician Army Strength: [+ ga_strength +] thousand
 
 Society Militarization: [+ soc_militarization : militancy +]
 
-RFB Strength: [+ rfb_strength +] thousand
+Polish Forces Strength: [+ POL_strength +] thousand
 
-RFB Militarization: [+ rfb_militancy : militancy +]
+Polish Forces Militarization: [+ rfb_militancy : militancy +]
 
 Stahlhelm Strength: [+ sh_strength +] thousand
 
