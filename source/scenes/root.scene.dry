@@ -102,7 +102,7 @@ Q.moderate_plan_adopted = 0;
 // Control
 Q.Ukrainian_control = 40;
 Q.Polish_control = 60;
-Q.Total_control = (Q.Ukraine_control + Q.Polish_control);
+Q.Total_control = (Q.Ukrainian_control + Q.Polish_control);
 Q.Polish_control_normalized = (Q.Polish_control/Q.Total_control)
 Q.Ukrainian_control_normalized = (Q.Ukrainian_control/Q.Total_control)
 
