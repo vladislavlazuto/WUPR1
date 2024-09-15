@@ -8,7 +8,7 @@ go-to: post_event if started = 1; start_menu if started = 0
 new-page: true
 go-to: start_menu_2
 
-= Social Democracy: An Alternate History
+= Western Ukrainian People's Republic
 
 @start_menu_2
 
@@ -548,11 +548,6 @@ new-page: true
 Your feat is the victory of truth over wrong, will over slavery, light over darkness, it is the victory of democracy, people's rights over oligarchy, over the enslavement of the majority by the privileged minority..."*
 
 - *Appeal of the Ukrainian National Council*, Lviv 1918
-
-
-This is a game of alternate history. While historical accuracy is a major concern, keep in mind that this is a *game*, and that any divergence from actual events will necessarily have to involve some element of make-believe. Nevertheless, please let the author know if there are any glaring mistakes.
-
-For more information on the politics and government of the German Republic, see the "Library" page on the top left. If this is your first time playing the game, it is strongly recommended that you read at least some of this information.
 
 - @1928_easy: Begin (easy difficulty)
 - @1928_main: Begin (normal difficulty)
