@@ -62,9 +62,8 @@ Next election: [+ next_election_month : month +] [+ next_election_year +]
 
 = Control
 
-Total Control: [+ Total_control +]
-Ukrainian Control: [+ {! Math.round(Polish_control_normalized*100) !} +]
-Ukrainian Control: [+ {! Math.round(Ukrainian_control_normalized*100) !} +]
+Polish Control: [+ Q.Polish_control_normalizedpercents +]
+Ukrainian Control: [+ Ukrainian_control_normalizedpercents +]
 
 = Inter-party Relations
 
