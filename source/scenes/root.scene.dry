@@ -106,7 +106,7 @@ Q.Total_control = (Q.Ukrainian_control + Q.Polish_control);
 Q.Polish_control_normalized = (Q.Polish_control/Q.Total_control);
 Q.Ukrainian_control_normalized = (Q.Ukrainian_control/Q.Total_control);
 Q.Polish_control_normalizedpercents = (Q.Polish_control_normalized*100);
-Q.Ukrainian_control_normalizedpercents = (Q.Ukrainian_control_normalized*100)
+Q.Ukrainian_control_normalizedpercents = (Q.Ukrainian_control_normalized*100);
 
 // inter-party relations
 Q.z_relation = 50;
