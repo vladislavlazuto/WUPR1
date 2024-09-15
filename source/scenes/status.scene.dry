@@ -64,6 +64,7 @@ Next election: [+ next_election_month : month +] [+ next_election_year +]
 
 Polish Control: [+ {! Math.round(Polish_control_normalized*100) !} +]
 
+Total Control: [+ Total_control +]
 
 Ukrainian Control: [+ {! Math.round(Ukrainian_control_normalized*100) !} +]
 
