@@ -102,7 +102,7 @@ Q.moderate_plan_adopted = 0;
 // Control
 
 Q.UA_Control = 40;
-Q.POL_Control = 60;
+
 
 // inter-party relations
 Q.z_relation = 50;
