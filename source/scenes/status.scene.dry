@@ -162,3 +162,16 @@ Unemployed: SPD: [+ unemployed_spd_normalized +]%, Z: [+ unemployed_z_normalized
 Catholics: SPD: [+ catholics_spd_normalized +]%, Z: [+ catholics_z_normalized +]%, KPD: [+ catholics_kpd_normalized +]%, DDP: [+ catholics_ddp_normalized +]%, DVP: [+ catholics_dvp_normalized +]%; DNVP: [+ catholics_dnvp_normalized +]%, NSDAP: [+ catholics_nsdap_normalized +]%, Others: [+ catholics_other_normalized +]%
 
 Support for the Republic: [+ pro_republic +]%
+
+
+@Foreign Relations
+
+Entente:
+
+Czechoslovakia:
+
+Poland:
+
+Hungary:
+
+Ukrainian People's Republic:
