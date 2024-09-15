@@ -168,4 +168,11 @@ go-to: events_choice if has_event = 1; main if has_event = 0 and difficulty >= 0
 
 - #event
 
+Q.Ukrainian_control = 125;
+Q.Polish_control = 180;
+Q.Total_control = (Q.Ukrainian_control + Q.Polish_control);
+Q.Polish_control_normalized = (Q.Polish_control/Q.Total_control);
+Q.Ukrainian_control_normalized = (Q.Ukrainian_control/Q.Total_control);
+
+
 # This scene is solely for updating numbers after events, and routing to special events.
