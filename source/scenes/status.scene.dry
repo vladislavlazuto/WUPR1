@@ -60,6 +60,12 @@ Next election: [+ next_election_month : month +] [+ next_election_year +]
 
 @politics
 
+= Control
+
+Polish Control: [+ POL_control +]
+
+Ukrainian Control: [+ UA_control +]
+
 = Inter-party Relations
 
 

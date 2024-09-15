@@ -99,6 +99,11 @@ Q.moderate_plan_adopted = 0;
 
 // organizations
 
+// Control
+
+Q.POL_control = 60
+Q.UA_control = 40
+
 // inter-party relations
 Q.z_relation = 50;
 Q.kpd_relation = 25;
