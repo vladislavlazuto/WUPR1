@@ -101,8 +101,6 @@ Q.moderate_plan_adopted = 0;
 
 // Control
 
-Q.UA_Control = 40;
-
 
 // inter-party relations
 Q.z_relation = 50;
