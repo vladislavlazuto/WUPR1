@@ -126,8 +126,8 @@ Q.prussian_government = "SPD";
 // The array of forces - paramilitary groups
 // Number of members in 1928 (in thousands)
 // Reichsbanner, stahlhelm, SA, rotfrontkämpferbund
-Q.rb_strength = 2000;
-Q.rb_militancy = 0.01;
+Q.ga_strength = 2000;
+Q.soc_militarization = 0.01;
 Q.women_in_rb = 0;
 Q.rb_banned = 0;
 Q.sh_strength = 500;
@@ -587,7 +587,7 @@ audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_
 new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
-= 1928
+= 1918
 
 It is a bright time for German democracy. After a period of struggle, inflation is finally under control, and the economy is expanding steadily. In foreign policy, we have reached agreements with the Western powers and the Soviet Union that might make genuine peace a reality. 
 

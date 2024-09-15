@@ -92,9 +92,9 @@ Reformist strength: [+ reformist_strength : strength +], dissent: [+ reformist_d
 
 = Paramilitaries
 
-Reichsbanner Strength: [+ rb_strength +] thousand
+Galician Army Strength: [+ ga_strength +] thousand
 
-Reichsbanner Militarization: [+ rb_militancy : militancy +]
+Society Militarization: [+ soc_militarization : militancy +]
 
 RFB Strength: [+ rfb_strength +] thousand
 
