@@ -100,7 +100,8 @@ Q.moderate_plan_adopted = 0;
 // organizations
 
 // Control
-
+Q.Ukraine_control = 40;
+Q.Polisg_control = 60;
 
 // inter-party relations
 Q.z_relation = 50;
