@@ -101,10 +101,11 @@ Q.moderate_plan_adopted = 0;
 
 // Control
 
-Q.POL_total_control = 100 - UA_control;
-Q.UA_total_control = 100 - POL_control;
 Q.UA_Control = 40;
 Q.POL_Control = 60;
+Q.POL_total_control = 100 - UA_control;
+Q.UA_total_control = 100 - POL_control;
+
 
 // inter-party relations
 Q.z_relation = 50;
