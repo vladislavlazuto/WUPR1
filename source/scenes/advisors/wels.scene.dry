@@ -1,8 +1,8 @@
-title: Otto Wels
+title: EvhenPetryshevych
 is-pinned-card: true
 tags: advisor, centrist
-card-image: img/portraits/WelsOtto.jpg
-view-if: wels_advisor = 1
+card-image: img/portraits/EvhenPetryshevych.jpg
+view-if: Petryshevych_advisor = 1
 new-page: true
 
 = Otto Wels

@@ -178,6 +178,7 @@ Q.reichswehr_loyalty = 0.2;
 
 // The state of the country
 
+
 // popular opinion
 // national ideology - on a binary scale
 // nationalism vs internationalism or pacifism or non-nationalism
@@ -520,7 +521,7 @@ Q.kpd_ultimatum_timer = 0;
 
 
 // all the initial advisors are centrists.
-Q.wels_advisor = 1; // Otto Wels
+Q.Petryshevych_advisor = 1; // Otto Wels
 Q.muller_advisor = 1; // Hermann Müller
 Q.muller_dead = 0;
 // okay I know Arthur Crispien was a leader irl but i couldn't find much interesting about him...
