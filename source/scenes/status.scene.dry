@@ -96,7 +96,7 @@ Social-Democratic Right strength: [+ SocialDemocraticRight_strength : strength +
 
 Social-Christians strength: [+ ChristianCatholic_strength : strength +], dissent: [+ ChristianCatholic_dissent : dissent +]
 
-[? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
+[? if nationalism > 0 : Nationalism strength: [+ nationalism_strength : strength +], dissent: [+ nationalism_dissent : dissent +] ?]
 
 
 @paramilitaries
