@@ -1,9 +1,9 @@
-title: Hermann Müller
+title: Ivan Makuh
 is-pinned-card: true 
 tags: advisor, centrist
-card-image: img/portraits/MüllerHermann.jpg
+card-image: img/portraits/IvanMakuh.jpg
 new-page: true
-view-if: muller_advisor = 1
+view-if: Makuh_advisor = 1
 
 = Herman Müller
 
