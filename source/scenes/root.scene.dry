@@ -523,9 +523,6 @@ Q.kpd_ultimatum_timer = 0;
 // all the initial advisors are centrists.
 Q.Petryshevych_advisor = 1; // Otto Wels
 Q.Makuh_advisor = 1; // Hermann Müller
-Q.muller_dead = 0;
-// okay I know Arthur Crispien was a leader irl but i couldn't find much interesting about him...
-Q.crispien_advisor = 0; // Arthur Crispien
 Q.SemenVytyk_advisor = 1; // Rudolf Hilferding
 
 // left advisors
