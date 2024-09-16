@@ -108,6 +108,9 @@ Q.Ukrainian_control_normalized = (Q.Ukrainian_control/Q.Total_control);
 Q.Polish_control_normalizedpercents = (Q.Polish_control_normalized*100);
 Q.Ukrainian_control_normalizedpercents = (Q.Ukrainian_control_normalized*100);
 
+//Corruption
+Q.corruption = 78;
+
 // inter-party relations
 Q.z_relation = 50;
 Q.kpd_relation = 25;
