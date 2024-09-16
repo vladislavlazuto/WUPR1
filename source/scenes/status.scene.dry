@@ -59,9 +59,7 @@ Inflation: [+ inflation_2 +]%
 
 Next election: [+ next_election_month : month +] [+ next_election_year +]
 
-= Corruption
 
-Corruption: [+ corruption : corruption +]
 
 # = Public Opinion
 
