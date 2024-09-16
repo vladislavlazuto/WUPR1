@@ -4,6 +4,6 @@ new-page: true
 is-card: true
 is-pinned-card: true
 on-arrival: month_activities += 1; shuffle_leadership_timer = 6;
-card-image: Shuffle.jpg
+card-image: img/Shuffle.jpg
 go-to: shuffle_leadership.rm_main
 
