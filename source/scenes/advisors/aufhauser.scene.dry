@@ -2,7 +2,7 @@ title: Evhen Petryshevych
 is-pinned-card: true
 tags: advisor, NationalDemocrat
 card-image: img/portraits/AufhäuserSiegfried.jpg
-view-if: Petryshevych_advisor = 1
+view-if: Petryshevych1_advisor = 1
 new-page: true 
 
 = Evhen Petryshevych
