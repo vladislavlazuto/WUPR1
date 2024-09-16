@@ -70,20 +70,17 @@ Polish Control: [+ Polish_control_normalizedpercents +]%
 
 Ukrainian Control: [+ Ukrainian_control_normalizedpercents +]%
 
-= Inter-party Relations
+= Minority Relations
 
 
-Z: [+ z_relation : relationships +]
+Polish Minority: [+ Polminority_relation : relationships +]
 
-DDP: [+ ddp_relation : relationships +]
+Jewish Minority: [+ Jewishminority_relation : relationships +]
 
-DVP: [+ dvp_relation : relationships +]
+German Minority: [+ Germanminority_relation : relationships +]
 
-KPD: [+ kpd_relation : relationships +]
+Ukrainian Support: [+ Ukrainiangovernmentpopularity : relationships +]
 
-DNVP: [+ dnvp_relation : relationships +]
-
-NSDAP: [+ nsdap_relation : relationships +]
 
 = Ukrainian National Union status
 
