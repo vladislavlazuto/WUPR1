@@ -604,7 +604,7 @@ audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_
 new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
-= 1918
+= The Day of Fate 
 
 With formation of Polish Liquidation Committee on **28 October 1918**, a temporary Polish representative body, which claimed as its own territory Ukrainian Galicia, Ukrainian society decided to take the situation in their own hands. In a last ditch effort of diplomacy, Ukrainian delegation oriented on Austria-Hungarian state to solve the issue and give Ukrainians officially power in Ukrainian part of Galicia, no definitive answer came in time.  
 
