@@ -1,13 +1,13 @@
-title: Siegfried Aufhäuser
+title: Evhen Petryshevych
 is-pinned-card: true
-tags: advisor, reformist
+tags: advisor, NationalDemocrat
 card-image: img/portraits/AufhäuserSiegfried.jpg
-view-if: aufhauser_advisor = 1
+view-if: Petryshevych_advisor = 1
 new-page: true 
 
-= Siegfried Aufhäuser
+= Evhen Petryshevych
 
-Aufhäuser is a leader of the AfA-Bund, the federation of socialist white-collar trade unions.
+Petryshevych is a leader of Ukrainian National Democratic Party
 
 - @white_collar
 - @union_unity
