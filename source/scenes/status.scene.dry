@@ -24,32 +24,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Government
 
-Head of Presidium: [+ president +]
 
-Upper Division of UNRada: 
-
-Social Democrats: [+ USDPVydil + ]
-
-Radicals: [+ RadicalPartyVydil +]
-
-National Democrats: [+ UNDPVydil +]
-
-
-
-UNRada composition:
-
-
-National Democratic Party: [+ UNDP_r +]%
-
-Radical Party: [+ RadicalParty_r +]%
-
-Social-Democratic Party: [+ USDP_r +]%
-
-Social Christian Party: [+ ChristianParty_r +]%
-
-PPS: [+ PPS_r +]%
-
-Others: [+ other_r +]%
 
 [? if spd_in_government = 1 : Budget: [+ budget +] ?]
 
