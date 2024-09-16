@@ -292,10 +292,11 @@ Q.catholics_other = 12;
 
 
 Q.UNDP_r = 26;
-Q.RadicalParty = 9;
-Q.SocialDemocratic = 17;
+Q.RadicalParty_r = 9;
+Q.USDP_r = 17;
 Q.ChristianCatholic_r = 6;
 Q.other_r = 9;
+Q.PPS_r =
 
 Q.SocialDemocratVydil = 2;
 Q.RadicalPartyVydil = 2;
