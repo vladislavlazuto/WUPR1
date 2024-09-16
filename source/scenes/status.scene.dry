@@ -57,7 +57,7 @@ Next election: [+ next_election_month : month +] [+ next_election_year +]
 
 = Corruption
 
-Corruption: [+ corruption : corrutpion +]
+Corruption: [+ corruption +]
 
 # = Public Opinion
 
