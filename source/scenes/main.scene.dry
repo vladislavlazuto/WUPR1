@@ -43,6 +43,7 @@ max-cards: 4
 - @govt
 - #advisor
 - @shuffle_leadership_pinned
+- @military
 
 
 @party
@@ -59,3 +60,8 @@ card-image: img/reichstag_2.jpg
 is-deck: true
 
 - #govt_affairs
+
+@military
+title: Military Affairs
+card-image: img/Striltsi1.jpg
+is-deck: true
