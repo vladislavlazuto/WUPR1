@@ -296,9 +296,9 @@ Q.RadicalParty_r = 9;
 Q.USDP_r = 17;
 Q.ChristianCatholic_r = 6;
 Q.other_r = 9;
-Q.PPS_r =
+Q.PPS_r = 10;
 
-Q.SocialDemocratVydil = 2;
+Q.USDPVydil = 2;
 Q.RadicalPartyVydil = 2;
 Q.UNDPVydil = 2;
 
