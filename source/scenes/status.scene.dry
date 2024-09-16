@@ -26,7 +26,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 Head of Presidium: [+ president +]
 
-Upper Division of UNRada: 
+= Upper Division of UNRada: 
 
 Radicals: [+ RadicalPartyVydil +]
 
@@ -34,7 +34,7 @@ National Democrats: [+ UNDPVydil +]
 
 Social Democrats: [+ USDPVydil +]
 
-UNRada composition:
+= UNRada composition:
 
 
 National Democratic Party: [+ UNDP_r +]%
@@ -49,6 +49,7 @@ PPS: [+ PPS_r +]%
 
 Others: [+ other_r +]%
 
+= Economy
 
 [? if spd_in_government = 1 : Budget: [+ budget +] ?]
 
@@ -57,8 +58,6 @@ Inflation: [+ inflation_2 +]%
 [? if black_thursday_seen = 1 : Unemployment: [+ unemployed_2 +]% ?]
 
 Next election: [+ next_election_month : month +] [+ next_election_year +]
-
-= Corruption
 
 Corruption: [+ corruption : corruption +]
 
