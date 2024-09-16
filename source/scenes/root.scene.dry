@@ -67,7 +67,7 @@ Q.left_split = 0;
 Q.reformists_resigned = 0;
 
 // have we discovered neorevisionism?
-Q.neorevisionism = 0;
+Q.nationalism = 0;
 
 // crisis_urgency indicates how seriously the SPD is taking the economic crisis - scale from 0 to 10.
 Q.crisis_urgency = 0;
@@ -323,7 +323,7 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.president = "Hindenburg";
+Q.president = "Kost Levytskyi";
 // starting chancellor: Wilhelm Marx
 Q.chancellor = "Marx";
 Q.chancellor_party = 'Z';
