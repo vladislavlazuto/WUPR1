@@ -44,6 +44,12 @@ Q.dues = 2;
 Q.dissent = 0.05;
 Q.dissent_percent = 5;
 
+
+// From Status scene: [? if spd_in_government : Coalition dissent: [+ coalition_dissent : coalition_dissent +] ?] [? if spd_toleration : toleration ?][? if spd_in_government : in government ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]**
+
+
+
+
 // factions
 Q.factions = ['RadicalParty', 'NationalDemocraticLeft', 'NationalDemocraticRight', 'SocialDemocraticRight', 'SocialDemocraticLeft', 'ChristianCatholic'];
 // should this be normalized to 100%?
