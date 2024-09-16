@@ -49,6 +49,8 @@ PPS: [+ PPS_r +]%
 
 Others: [+ other_r +]%
 
+Next election: [+ next_election_month : month +] [+ next_election_year +]
+
 = Economy
 
 [? if spd_in_government = 1 : Budget: [+ budget +] ?]
@@ -57,7 +59,7 @@ Inflation: [+ inflation_2 +]%
 
 [? if black_thursday_seen = 1 : Unemployment: [+ unemployed_2 +]% ?]
 
-Next election: [+ next_election_month : month +] [+ next_election_year +]
+
 
 Corruption: [+ corruption : corruption +]
 
