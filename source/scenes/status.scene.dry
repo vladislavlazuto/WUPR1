@@ -16,7 +16,7 @@ if (Q.inflation) {
 
 Resources available: [+ resources +]
 
-SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in government ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
+National Union Status: [? if spd_toleration : toleration ?][? if spd_in_government : in government ?][? if spd_toleration == 0 and spd_in_government == 0 and spd_caretaker == 0 : opposition ?][? if spd_caretaker : caretaker government ?]
 
 [? if spd_in_government : Coalition dissent: [+ coalition_dissent : coalition_dissent +] ?]
 
@@ -24,27 +24,31 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Government
 
-President: [+ president +]
+Head of Presidium: [+ president +]
 
-Chancellor: [+ chancellor +] ([+ chancellor_party +])
+Upper Division of UNRada: 
 
-Reichstag composition:
+Social Democrats: [+ SocialDemocratVydil + ] , 
 
-# 1928: 30, 1930: 25, 1932: 22
-SPD: [+ spd_r +]%
-# 1928: 15, 1930: 15, 1932: 
-Z + BVP: [+ z_r +]%
-# 1928: 10, 1930: 13
-KPD: [+ kpd_r +]%
-# 1928: 5, 1930: 4 (as DstP)
-DDP: [+ ddp_r +]%
-# 1928: 9, 1930: 5
-DVP: [+ dvp_r +]%
-# 1928: 14, 1930: 7
-DNVP: [+ dnvp_r +]%
-# 1928: 3, 1930: 18
-NSDAP: [+ nsdap_r +]%
-# 1928: 9, 1930: 10
+Radicals: [+RadicalPartyVydil+] , 
+
+National Democrats: [+ UNDPVydil +]
+
+
+
+UNRada composition:
+
+
+National Democratic Party: [+ UNDP_r +]%
+
+Radical Party: [+ RadicalParty_r +]%
+
+Social-Democratic Party: [+ USDP_r +]%
+
+Social Christian Party: [+ ChristianParty_r +]%
+
+PPS: [+ PPS_r +]%
+
 Others: [+ other_r +]%
 
 [? if spd_in_government = 1 : Budget: [+ budget +] ?]
