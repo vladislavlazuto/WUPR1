@@ -57,6 +57,8 @@ Q.SocialDemocraticRight_strength = 25;
 Q.SocialDemocraticRight_dissent = 5;
 Q.SocialDemocraticLeft_strength = 5;
 Q.SocialDemocraticLeft_dissent = 10;
+Q.ChristianCatholic_strength = 5;
+Q.ChristianCatholic_dissent = 5;
 
 // secret events...
 Q.unions_independent = 0;

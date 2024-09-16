@@ -87,17 +87,17 @@ NSDAP: [+ nsdap_relation : relationships +]
 
 = Internal Factions of the SPD
 
-Radical Party strength: [+ left_strength : strength +], dissent: [+ left_dissent : dissent +]
+Radical Party strength: [+ RadicalParty_strength : strength +], dissent: [+ RadicalParty_dissent : dissent +]
 
-National Democratic Left strength: [+ center_strength : strength +], dissent: [+ center_dissent : dissent +]
+National Democratic Left strength: [+ NationalDemocraticLeft_strength : strength +], dissent: [+ NationalDemocraticRight_dissent : dissent +]
 
-National Democratic Right strength: [+ labor_strength : strength +], dissent: [+ labor_dissent : dissent +]
+National Democratic Right strength: [+ NationalDemocraticRight_strength : strength +], dissent: [+ labor_dissent : dissent +]
 
-Social-Democratic Left strength: [+ reformist_strength : strength +], dissent: [+ reformist_dissent : dissent +]
+Social-Democratic Left strength: [+ SocialDemocraticLeft_strength : strength +], dissent: [+ SocialDemocraticLeft_dissent : dissent +]
 
-Social-Democratic Right strength: 
+Social-Democratic Right strength: [+ SocialDemocraticRight_strength : strength +], dissent: [+ SocialDemocraticRight_dissent : dissent +]
 
-Social-Christians strength
+Social-Christians strength: [+ ChristianCatholic_strength : strength +], dissent: [+ ChristianCatholic_dissent : dissent +]
 
 [? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
 
