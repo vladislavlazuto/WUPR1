@@ -1,0 +1,54 @@
+title: Battle For Lviv
+subtitle: And the war starts...
+view-if: year = 1918
+max-visits: 1
+tags: event
+new-page: true
+card-image: img/BarykadaLviv.jpg
+go-to: lvivbattle
+
+= Battle For Lviv
+
+@lvivbattle
+
+- @townhall: Storm the town Hall
+- @province_rebels: More and more provinces answers to the call of Ukrainian revolution
+- @call_on_demo: Call a general strike!
+- @get_aus_support: Call up the loyal portions of the police.
+- @independence_declaration: Now, the battle...
+
+@townhall
+max-visits: 1
+go-to: lvivbattle
+
+1,460 Ukrainian soldiers led by Sich Riflemen officer D. Vitovsky disarmed the Lviv garrison, arrested the governor, and captured the city's most important institutions: the town hall, the Austro-Hungarian bank, the post office, the telegraph, the city citadel, military barracks and warehouses, and the railway station.
+
+@province_rebels
+max-visits: 1
+go-to: lvivbattle
+
+Ukrainian workers seize power in Drohobychy, in Stryi, Stanyslav, Kolomyya and many other cities Ukrainian flag proudly waves above governmental buildings. Ukrainian peasants in the border-regions form self-defence units...
+
+@call_on_demo
+max-visits: 1
+go-to: lvivbattle
+
+Thousands of people march in support of new Ukrainian state. The people from all the villages are coming to the cities in the show of solidarity and force. 
+
+@get_aus_support
+max-visits: 1
+go-to: lvivbattle
+
+Finally, Austria-Hungary officially transitions control of the Eastern Galicia to Ukrainian National Rada. Most of the Austrian officials are happy to relegate their administrative duties in Galicia and participate in fate of the Austrian state. However, the few are staying. Their experience and connections bring a lot to the table, and every bureucrat or police officer who decided to continue his work for Ukrainian state is treated with utmost respect
+
+@independence_declaration
+max-visits: 1
+go-to: lvivbattle
+
+The new Ukrainian state was declared, started formation of its administrative apparatus and armed forces. Ukrainian National Rada immediately released a statement to widen its composition with representatives of Polish, Jewish and German minority to discuss implementation of national-personal and cultural autonomy. 
+
+From members of Ukrainian National Rada, "Upper Division" is formed — a small version of Parliament from trusted representatives to act between Parliamentary sessions to adopt decisions fast. 
+
+By far the biggest party — Ukrainian National Democratic party, in a spirit of a deliberation, agreed to a parity principle between three parties. A marxist Ukrainian Social-democratic Party; a non-marxist agrarian-socialist Radical Party; and Ukrainian National Democratic Party itself — a big-tent center-to-center-left party representing all the classes of Ukrainian society.
+
+First bricks of Ukrainian state in Western lands are laid. 
