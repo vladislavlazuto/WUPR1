@@ -1,11 +1,11 @@
 title: Battle for Lviv
 new-page: true
-on-arrival: month_actions += 1
+is-card: true
+tags: military_affairs
 max-visits: 1
 view-if: year = 1918
-is-card: true
 card-image: img/flags.jpg
-tags: military_affairs
+
 
 = Campaigning
 
