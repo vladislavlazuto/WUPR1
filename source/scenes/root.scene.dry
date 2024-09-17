@@ -620,8 +620,31 @@ go-to: Lvivbattle
 
 @Lvivbattle
 
-- @rw_help: Appeal to the Reichswehr to stand down.
-- @kpd_help: Call for support from the Communists.
-- @general_strike: Call a general strike!
-- @loyal_police: Call up the loyal portions of the police.
-- @war_outcome: Now, the battle...
+- @TownHall: Storm the town Hall
+- @ProvincesRebell: Call for support from the Communists.
+- @CallOnDemonstration: Call a general strike!
+- @GetAustrianSupport: Call up the loyal portions of the police.
+- @TheDeclaration: Now, the battle...
+
+@TownHall
+max-visits: 1
+go-to: Lvivbattle
+
+1,460 Ukrainian soldiers led by Sich Riflemen officer D. Vitovsky disarmed the Lviv garrison, arrested the governor, and captured the city's most important institutions: the town hall, the Austro-Hungarian bank, the post office, the telegraph, the city citadel, military barracks and warehouses, and the railway station.
+
+@ProvincesRebell
+max-visits: 1
+go-to: Lvivbattle
+
+
+@CallOnDemonstration
+max-visits: 1
+go-to: Lvivbattle
+
+@GetAustrianSupport
+max-visits: 1
+go-to: Lvivbattle
+
+@TheDeclaration
+max-visits: 1
+go-to: Lvivbattle
