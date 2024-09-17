@@ -6,9 +6,7 @@ max-visits: 1
 view-if: year = 1918
 card-image: img/BarykadaLviv.jpg
 
-
-
-= Battle For Lviv
+@lvivbattle
 
 - @townhall: Storm the town Hall
 - @province_rebels: Call for support from the Communists.
