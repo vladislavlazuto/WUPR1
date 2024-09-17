@@ -64,3 +64,5 @@ is-deck: true
 title: Military Affairs
 card-image: img/Striltsi1.jpg
 is-deck: true
+
+- #military_affairs
