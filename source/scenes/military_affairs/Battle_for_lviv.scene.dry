@@ -6,7 +6,7 @@ max-visits: 1
 view-if: year = 1918
 card-image: img/BarykadaLviv.jpg
 
-@Lvivbattle
+@lvivbattle
 
 = Battle For Lviv
 
@@ -19,26 +19,26 @@ card-image: img/BarykadaLviv.jpg
 @townhall
 title: Continue the implementation of the WTB-Plan.
 max-visits: 1
-go-to: Lvivbattle
+go-to: lvivbattle
 
 1,460 Ukrainian soldiers led by Sich Riflemen officer D. Vitovsky disarmed the Lviv garrison, arrested the governor, and captured the city's most important institutions: the town hall, the Austro-Hungarian bank, the post office, the telegraph, the city citadel, military barracks and warehouses, and the railway station.
 
 @province_rebels
 title: Continue the implementation of the WTB-Plan.
 max-visits: 1
-go-to: Lvivbattle
+go-to: lvivbattle
 
 @call_on_demo
 title: Continue the implementation of the WTB-Plan.
 max-visits: 1
-go-to: Lvivbattle
+go-to: lvivbattle
 
 @get_aus_support
 title: Continue the implementation of the WTB-Plan.
 max-visits: 1
-go-to: Lvivbattle
+go-to: lvivbattle
 
 @independence_declaration
 title: Continue the implementation of the WTB-Plan.
 max-visits: 1
-go-to: Lvivbattle
+go-to: lvivbattle
