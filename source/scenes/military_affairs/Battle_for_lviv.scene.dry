@@ -5,8 +5,7 @@ tags: military_affairs
 max-visits: 1
 view-if: year = 1918
 card-image: img/BarykadaLviv.jpg
-
-go-to: @lvivbattle
+go-to: lvivbattle
 
 = Battle For Lviv
 
