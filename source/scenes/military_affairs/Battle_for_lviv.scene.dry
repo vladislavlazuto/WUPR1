@@ -16,7 +16,7 @@ card-image: img/BarykadaLviv.jpg
 - @get_aus_support: Call up the loyal portions of the police.
 - @independence_declaration: Now, the battle...
 
-@lvivbattle
+lvivbattle
 
 @townhall
 title: Continue the implementation of the WTB-Plan.
