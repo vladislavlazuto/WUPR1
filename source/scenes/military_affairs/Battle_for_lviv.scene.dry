@@ -10,6 +10,8 @@ card-image: img/BarykadaLviv.jpg
 
 = Battle For Lviv
 
+@lvivbattle
+
 - @townhall: Storm the town Hall
 - @province_rebels: Call for support from the Communists.
 - @call_on_demo: Call a general strike!
@@ -43,4 +45,4 @@ title: Continue the implementation of the WTB-Plan.
 max-visits: 1
 go-to: lvivbattle
 
-@lvivbattle
+
