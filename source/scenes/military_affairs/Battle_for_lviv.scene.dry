@@ -6,6 +6,8 @@ max-visits: 1
 view-if: year = 1918
 card-image: img/BarykadaLviv.jpg
 
+@Lvivbattle
+
 = Battle For Lviv
 
 - @TownHall: Storm the town Hall
