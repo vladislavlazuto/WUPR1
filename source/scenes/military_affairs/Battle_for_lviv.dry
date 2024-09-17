@@ -5,7 +5,7 @@ max-visits: 1
 view-if: year = 1918
 is-card: true
 card-image: img/flags.jpg
-tags: 
+tags: military_affairs
 
 = Campaigning
 
