@@ -6,7 +6,7 @@ max-visits: 1
 view-if: year = 1918
 card-image: img/BarykadaLviv.jpg
 
-@Lvivbattle
+
 
 = Battle For Lviv
 
@@ -26,7 +26,6 @@ max-visits: 1
 @ProvincesRebell
 title: Continue the implementation of the WTB-Plan.
 max-visits: 1
-
 
 
 @CallOnDemonstration
