@@ -6,7 +6,7 @@ max-visits: 1
 view-if: year = 1918
 card-image: img/BarykadaLviv.jpg
 
-
+@lvivbattle
 
 = Battle For Lviv
 
@@ -15,8 +15,6 @@ card-image: img/BarykadaLviv.jpg
 - @call_on_demo: Call a general strike!
 - @get_aus_support: Call up the loyal portions of the police.
 - @independence_declaration: Now, the battle...
-
-lvivbattle
 
 @townhall
 title: Continue the implementation of the WTB-Plan.
