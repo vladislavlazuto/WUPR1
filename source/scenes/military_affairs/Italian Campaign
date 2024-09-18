@@ -22,8 +22,9 @@ It is important to note, that not only volunteers, but mobilized Ukrainian soldi
 subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
-on-arrival: 
-We have increased our campaigning among the workers. [? if unemployed >= 15: The high levels of unemployment make our campaign more difficult. ?][? if wtb_adopted = 1 : Adopting the WTB plan gives us a new rallying point around which to attract workers. ?]
+on-arrival: Galician_army_strength += 2000; Galician_officers += 50; Equipment += 1;
+
+
 
 @approach_austria
 subtitle: The safe option
