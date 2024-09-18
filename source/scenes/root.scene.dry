@@ -108,8 +108,8 @@ Q.moderate_plan_adopted = 0;
 // organizations
 
 // Control
-Q.Ukrainian_control = 60;
-Q.Polish_control = 60;
+Q.Ukrainian_control = 35;
+Q.Polish_control = 75;
 Q.Total_control = (Q.Ukrainian_control + Q.Polish_control);
 Q.Polish_control_normalized = (Q.Polish_control/Q.Total_control);
 Q.Ukrainian_control_normalized = (Q.Ukrainian_control/Q.Total_control);
@@ -117,7 +117,7 @@ Q.Polish_control_normalizedpercents = (Q.Polish_control_normalized*100);
 Q.Ukrainian_control_normalizedpercents = (Q.Ukrainian_control_normalized*100);
 
 //Corruption
-Q.corruption = 78;
+Q.corruption = 15;
 
 // inter-party relations
 Q.z_relation = 50;
