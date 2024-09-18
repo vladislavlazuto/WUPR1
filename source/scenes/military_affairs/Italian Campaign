@@ -22,14 +22,13 @@ It is important to note, that not only volunteers, but mobilized Ukrainian soldi
 subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
-on-arrival: Galician_army_strength += 2000; Galician_officers += 50; Equipment += 1;
+on-arrival: Galician_army_strength += 6500; Galician_officers += 50; Equipment += 1;
 
 
 
 @approach_austria
 subtitle: The safe option
-unavailable-subtitle: Not enough resources.
-on-arrival: 
+on-arrival: Galician_army_strength += 2000; Galician_officers += 20; Equipment += 1;
 
 
 @switch_sides
@@ -38,8 +37,7 @@ choose-if: resources >= 2
 unavailable-subtitle: Not enough resources.
 on-arrival: resources -= 2; Galician_legion = 1;
 
-We have increased our campaigning among the old middle class. [? if nationalism >= 51 and peoples_party == 0: The high levels of nationalism among this group make our campaign more difficult. ?] [? if peoples_party > 0: As a people's party, we have an easier time increasing support among the middle class than before. ?]
 
 @negotiate_with_Austria
 subtitle: Honor +1
-
+on-arrival:

@@ -79,13 +79,13 @@ Ukrainian Control: [+ Ukrainian_control_normalizedpercents +]%
 = Minority Relations
 
 
-Polish Minority: [+ Polminority_relation : relationships +]
+Polish Minority: [+ Polish_minority_relation : minorities +]
 
-Jewish Minority: [+ Jewishminority_relation : relationships +]
+Jewish Minority: [+ Jewish_minority_relation : minorities +]
 
-German Minority: [+ Germanminority_relation : relationships +]
+German Minority: [+ German_minority_relation : minorities +]
 
-Ukrainian Support: [+ Ukrainiangovernmentpopularity : relationships +]
+Ukrainian Support: [+ Ukrainian_government_popularity : +]
 
 
 = Ukrainian National Union status

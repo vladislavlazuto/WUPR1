@@ -117,6 +117,13 @@ Q.Ukrainian_control_normalized = (Q.Ukrainian_control/Q.Total_control);
 Q.Polish_control_normalizedpercents = (Q.Polish_control_normalized*100);
 Q.Ukrainian_control_normalizedpercents = (Q.Ukrainian_control_normalized*100);
 
+// Minorities
+
+Polish_minority_relation = 1 
+Jewish_minority_relation = 2 
+German_minority_relation = 2
+Ukrainian_government_popularity = 4
+
 //Corruption
 Q.corruption = 15;
 
