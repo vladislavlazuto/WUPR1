@@ -22,26 +22,23 @@ It is important to note, that not only volunteers, but mobilized Ukrainian soldi
 subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
-on-arrival: workers_spd += 6*(1-dissent); workers_spd -= 2 if unemployed >= 15; workers_spd -= 2 if unemployed >= 25; workers_spd += 6*(1-dissent) if wtb_adopted = 1; resources -= 1; workers_spd += 3*(1-dissent) if nationalization_progress >= 1;
-
+on-arrival: 
 We have increased our campaigning among the workers. [? if unemployed >= 15: The high levels of unemployment make our campaign more difficult. ?][? if wtb_adopted = 1 : Adopting the WTB plan gives us a new rallying point around which to attract workers. ?]
 
 @approach_austria
-subtitle: -1 resources
-choose-if: resources >= 1
+subtitle: The safe option
 unavailable-subtitle: Not enough resources.
-on-arrival: new_middle_spd += 6*(1-dissent); new_middle_spd -= 3 if socialism <= 49 and peoples_party == 0; resources -= 1; peoples_party_support += 1;
+on-arrival: 
 
-We have increased our campaigning among the new middle class. [? if socialism <= 49 and peoples_party == 0: The popular antipathy towards socialism among this group makes our campaign more difficult. ?] [? if peoples_party > 0: As a people's party, we have an easier time increasing support among the middle class than before. ?]
 
 @switch_sides
-subtitle: -1 resources
-choose-if: resources >= 1
+subtitle: -2 resources
+choose-if: resources >= 2
 unavailable-subtitle: Not enough resources.
-on-arrival: old_middle_spd += 5*(1-dissent); resources -= 1; old_middle_spd -= 3 if nationalism >= 51 and peoples_party == 0; peoples_party_support += 1
+on-arrival: resources -= 2; Galician_legion = 1;
 
 We have increased our campaigning among the old middle class. [? if nationalism >= 51 and peoples_party == 0: The high levels of nationalism among this group make our campaign more difficult. ?] [? if peoples_party > 0: As a people's party, we have an easier time increasing support among the middle class than before. ?]
 
 @negotiate_with_Austria
 subtitle: Honor +1
-choose-if: 
+

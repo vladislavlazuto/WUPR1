@@ -109,7 +109,11 @@ Social-Christians strength: [+ ChristianCatholic_strength : strength +], dissent
 
 = Military Situation
 
-Galician Army Strength: [+ ga_strength +] thousand
+Galician Army Strength: [+ Galician_army_strength +]
+
+Galician Officership: [+ Galician_officers +]
+
+Equipment: [+ Q.Equipment +]
 
 Society Militarization: [+ soc_militarization : militancy +]
 
