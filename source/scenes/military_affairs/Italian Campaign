@@ -25,7 +25,6 @@ unavailable-subtitle: Not enough resources.
 on-arrival: Galician_army_strength += 6500; Galician_officers += 50; Equipment += 1;
 
 
-
 @approach_austria
 subtitle: The safe option
 on-arrival: Galician_army_strength += 2000; Galician_officers += 20; Equipment += 1;
@@ -35,9 +34,9 @@ on-arrival: Galician_army_strength += 2000; Galician_officers += 20; Equipment +
 subtitle: -2 resources
 choose-if: resources >= 2
 unavailable-subtitle: Not enough resources.
-on-arrival: resources -= 2; Galician_legion = 1;
+on-arrival: resources -= 2; Galician_legion = 1; Eqiopment -= 1;
 
 
 @negotiate_with_Austria
 subtitle: Honor +1
-on-arrival:
+on-arrival: German_minority_relation += 1; 
