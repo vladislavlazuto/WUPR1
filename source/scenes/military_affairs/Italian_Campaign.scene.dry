@@ -32,7 +32,8 @@ on-arrival: Galician_army_strength += 2000; Galician_officers += 20; Equipment +
 
 
 @switch_sides
-subtitle: -2 resources
+subtitle: -2 resources. Galician legion on the side of Entente will be formed
+
 choose-if: resources >= 2
 unavailable-subtitle: Not enough resources.
 on-arrival: resources -= 2; Galician_legion = 1; Eqiopment -= 1;
