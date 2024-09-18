@@ -3,10 +3,11 @@ new-page: true
 on-arrival: month_actions += 1
 max-visits: 3
 is-card: true
+tags: military_affairs
 view-if: year = 1918
 card-image: img/flags.jpg
 frequency: 200
-tags: military_affairs
+
 
 = Italian Campaign
 
