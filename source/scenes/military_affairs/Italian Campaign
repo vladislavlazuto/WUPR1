@@ -16,9 +16,7 @@ It is important to note, that not only volunteers, but mobilized Ukrainian soldi
 - @Secret_deal: By using our "contacts" in Austro-Hungary we could try to secretly transport Ukrainian troops from the frontline. 
 - @approach_austria: We are sure that Austro-Hungarian state wouldn't compromise on mobilized soldiers. However, with proper diplomacy we could get back Ukrainian volunteers of Sich Riflemen.
 - @switch_sides: Vasyl Paneiko, editor of daily newspaper "Dilo", now discussed to be first minister of Foreign Affairs of Western Ukrainian State, secretly proposes a formation of Galician legion on the side of the Entente from Ukrainian prisoners... Maybe we should "switch sides"?
-- @catholics: Catholics, who typically support the Center Party.
-- @root: We either don't want to or cannot campaign right now.
-- @easy_discard
+- @negotiate_with_Austria: We could negotiate with Austro-Hungarian state to help us with resources, and commit loyally to the Austro-Hungary. It could be the right thing to do.
 
 @Secret_deal
 subtitle: -1 resources
@@ -44,27 +42,6 @@ on-arrival: old_middle_spd += 5*(1-dissent); resources -= 1; old_middle_spd -= 3
 
 We have increased our campaigning among the old middle class. [? if nationalism >= 51 and peoples_party == 0: The high levels of nationalism among this group make our campaign more difficult. ?] [? if peoples_party > 0: As a people's party, we have an easier time increasing support among the middle class than before. ?]
 
-@rural
-subtitle: -1 resources
-choose-if: resources >= 1
-unavailable-subtitle: Not enough resources.
-on-arrival: rural_spd += 6*(1-dissent); rural_spd -= 3 if peoples_party == 0; resources -= 1; peoples_party_support += 1; rural_spd += 3*(1-dissent) if rural_policy >= 2
-
-We have increased our campaigning among farmers. [? if unemployed >= 15: The high levels of unemployment make our campaign more difficult. ?][? if peoples_party > 0: As a people's party, we have an easier time increasing support among farmers than before. ?][? if rural_policy >= 2 : Our rural policies have made it easier for us to build support among farmers. ?]
-
-@unemployed
-subtitle: -1 resources
-choose-if: resources >= 1
-unavailable-subtitle: Not enough resources.
-on-arrival: unemployed_spd += 6*(1-dissent); resources -= 1; unemployed_spd -= 3 if welfare < 0; unemployed_spd += 6*(1-dissent) if wtb_adopted = 1; unemployed_spd += 3*(1-dissent) if welfare >= 2;
-
-We have increased our campaigning among the unemployed. [? if welfare < 0: The welfare cuts and resultant poverty make our campaign more difficult, since we are associated with the government that enacted these cuts, and our campaign may even backfire. ?][? if wtb_adopted = 1 : Adopting the WTB plan gives us a new rallying point around which to attract support from the unemployed. ?]
-
-@catholics
-subtitle: -1 resources
-choose-if: resources >= 1
-unavailable-subtitle: Not enough resources.
-view-if: peoples_party == 1
-on-arrival: catholics_spd += 6*(1-dissent); resources -= 1
-
-We have increased our campaigning among Catholics.
+@negotiate_with_Austria
+subtitle: Honor +1
+choose-if: 
