@@ -3,6 +3,7 @@ subtitle: We need to tighten our belts...
 new-page: true
 tags: event
 view-if: year = 1918
+max-visits: 1
 go-to: embargo
 
 
