@@ -1,0 +1,56 @@
+title: Semen Vytyk
+is-pinned-card: true
+tags: advisor
+card-image: img/portraits/SemenVytyk.jpg
+face-image: img/portraits/SemenVytyk.jpg
+view-if: SemenVytyk_advisor = 1
+new-page: true
+
+= Semen Vytyk
+
+Semen Vytyk is one of the founders of Ukrainian Social-Democratic Party and the most influential person on the party's "left flank". 
+
+Therefore, S. Vityk, possessing good organizational and oratorical skills, was very popular among both workers and peasants. At the beginning of the 20th century S. Vityk was the founder of labor unions, as well as the organizer of mass meetings, protests, demonstrations, etc. In addition, S.
+Vityk was one of the leaders of the famous strike of Galician peasants in 1902, and already in 1904 - the strike of the workers of the Drohobytsk-Borislavsky oil basin.
+
+S. Vityk also enjoyed authority in the international socialist movement. In particular, he was an active participant and spoke at the all-party congresses of the Austrian Social Democracy in Vienna (1901, 1903 and 1905), represented the USDP as part of the Austrian delegation at the Stuttgart (1907) and Basel (1912) II congresses International.
+Having been a member of the Austrian parliament for more than ten years, S. Vityk, for ideological and social-class reasons, worked as part of a multinational social-democratic club, not a Ukrainian one. Along with other leaders of the Austrian social democracy, he was part of its leadership unit
+
+On the eve of the November disruption, S. Vityk was one of the first Ukrainian deputies to speak in the parliament with the ideas of political independence and the unity of Ukraine. Thus, on October 11, 1918, S. Vityk declared that the Austro-Hungarian Empire "cannot continue to exist. Austria must give the peoples the freedom to form independent states," and emphasized
+that "free and independent Ukraine belongs to us as a free people." On October 22, in a speech at a session of the parliament, he demanded the unification of all Ukrainians in a single Ukrainian republic, at the same time clearly emphasizing that the Ukrainian people do not encroach on other people's territories, but they will not give a single piece of their own land to anyone.
+
+He occupied an important place in Western Ukrainian revolution. A member of collective leadership of the state, Upper Division of National Rada, and, because of his influence with the workers of Drohobych oil plants, a comissar of the region. 
+
+However, such a role wasn't without excesses. Controlling oil industry, Semen Vytyk immediately become one of the most important member of the government. He controlled oil flows and the profit from the oil industry, and was completely alone in making decisions regarding oil. For this, he become known as "oil baron", "Western Ukrainian Bonapart" and many more. The new oil holdings gave the opportunity both for power and corruption that Semen Vytyk is not afraid to use for pursuing his goals. 
+
+- @Oil_baron
+- @Ukrainian_sobornyk
+- @negotiate_with_second_international
+- @bolster_the_left
+- @root: Return to main
+
+@Oil)baron
+title: Oil Baron
+subtitle: Strongly boosts popularity, makes advisor irremovable from Upper Division and leadership deck for a year. 
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?][? if iron_front_formed == 0 : The Iron Front has not yet been formed. ?]
+on-arrival: advisor_action_timer = 6; rb_strength += 200*workers_spd/(workers_spd+workers_kpd+workers_nsdap+workers_z+workers_dnvp+workers_other);
+
+We have recruited more members into the Reichsbanner.
+
+
+@form_iron_front
+title: Forming the Iron Front
+choose-if: advisor_action_timer == 0 and iron_front_formed == 0 and nazi_urgency >= 2
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?][? if iron_front_formed : The Iron Front has already been formed. ?][? if nazi_urgency < 2 : The party does not yet see the danger of the Nazis. ?]
+on-arrival: advisor_action_timer = 6; rb_strength += 50; nazi_urgency += 1
+go-to: confronting_nazis.iron_front 
+
+
+@nazi_urgency
+title: Warning about the Nazis
+subtitle: By warning the party about the Nazis, we can spur our members to action.
+choose-if: advisor_action_timer == 0
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
+on-arrival: advisor_action_timer = 6; nazi_urgency += 1; rb_militancy += 0.01; nsdap_workers -= 4*(1-dissent);
+
+We have begun a propaganda campaign to warn our members away from the Nazis.
