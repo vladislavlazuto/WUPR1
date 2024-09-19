@@ -3,7 +3,7 @@ new-page: true
 is-card: true
 tags: govt_affairs
 on-arrival: month_actions += 1
-view-if: epidemy >= 1
+view-if: epidemic >= 1
 frequency: 1000
 card-image: img/Ill_soldiers.jpg
 
