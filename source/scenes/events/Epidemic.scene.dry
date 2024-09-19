@@ -13,12 +13,12 @@ go-to: Crises_menu
 
 @Crises_menu
 
-- @Epidemic
+- @Epidemic_crisis
 - @Hunger
 - @Housing_and_clothes_crisis
 - @Economic_collapse
 
-@Epidemic
+@Epidemic_crisis
 max-visits: 1
 go-to: Crises_menu
 
