@@ -10,6 +10,7 @@ card-image: img/Ill_soldiers.jpg
 
 Epidemy of typhus ravages the land of Western Ukraine. With the destructions on unseend scale during the Great War fighting, there is nearly no Hospitals left. 
 subtittle: [? If equipment <= 3 : "For the first time in Ukraine, after 12 years of military and military practice, I had to see an armed rifleman, who was on duty barefoot" — Osyp Levytskyi. Our lack of quality and quantity of equipment worsens the pandemic. We need to solve the issue fast. ?] [? If medics <= 100 : Our lack of military medics as well as doctors puts a serious strain on our handling of epidemy ?]
+
 - @Hire_medics: By hiring new medics we can prevent the most harmful consequences of the epidemy
 - @building_the_hospitals: Expand our hospital beds space, restore destroyed hospitals and open new military hospitals
 - @root: Take no action for now.
