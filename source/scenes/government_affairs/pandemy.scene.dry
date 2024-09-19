@@ -20,10 +20,6 @@ Epidemy of typhus ravages the land of Western Ukraine. With the destructions on 
 subtitle: -1 budget
 on-arrival: budget -=1; medics += 20
 
-As with the Prussian state police, there are measures we can take to root out reactionary and anti-democratic sentiment in the police. We can improve training and recruiting procedures, and identify and remove known fascists and the like.
-
-Current interior police loyalty: [+ interior_police_loyalty : loyalty +]
-
 
 @building_the_hospitals
 subtitle: -2 budget
