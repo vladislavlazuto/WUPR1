@@ -39,13 +39,15 @@ Social Democrats: [+ USDPVydil +]
 = UNRada composition:
 
 
-National Democratic Party: [+ UNDP_r +]%
+National Democratic Party: [+ UNDP_r +]
 
-Radical Party: [+ RadicalParty_r +]%
+Radical Party: [+ RadicalParty_r +]
 
-Social-Democratic Party: [+ USDP_r +]%
+Social-Democratic Party: [+ USDP_r +]
 
-Social Christian Party: [+ ChristianParty_r +]%
+Social Christian Party: [+ ChristianParty_r +]
+
+Ukrainian People's Party: [+ Q.UNP +]
 
 PPS: [+ PPS_r +]%
 
@@ -120,24 +122,6 @@ Society Militarization: [+ soc_militarization : militancy +]
 Polish Forces Strength: [+ POL_strength +] thousand
 
 Polish Forces Militarization: [+ rfb_militancy : militancy +]
-
-Stahlhelm Strength: [+ sh_strength +] thousand
-
-Stahlhelm Militarization: [+ sh_militancy : militancy +]
-
-SA Strength: [+ sa_strength +] thousand
-
-SA Militarization: [+ sa_militancy : militancy +]
-
-= Official military/paramilitaries
-
-Reichswehr: [+ reichswehr_strength +] thousand troops.
-
-Reichswehr Loyalty: [+ reichswehr_loyalty : loyalty +]
-
-Prussian police: [+ prussian_police_strength +] thousand members.
-
-Prussian police loyalty: [+ prussian_police_loyalty : loyalty +]
 
 @polls
 

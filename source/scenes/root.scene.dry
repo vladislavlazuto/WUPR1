@@ -306,12 +306,13 @@ Q.catholics_other = 12;
 
 
 
-Q.UNDP_r = 26;
-Q.RadicalParty_r = 9;
-Q.USDP_r = 17;
-Q.ChristianCatholic_r = 6;
-Q.other_r = 9;
-Q.PPS_r = 10;
+Q.UNDP_r = 44;
+Q.RadicalParty_r = 10;
+Q.USDP_r = 7;
+Q.ChristianCatholic_r = 4;
+Q.UNP = 3
+Q.other_r = 13;
+Q.PPS_r = 0;
 
 Q.USDPVydil = 2;
 Q.RadicalPartyVydil = 2;
