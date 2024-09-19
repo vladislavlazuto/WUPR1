@@ -85,7 +85,7 @@ Jewish Minority: [+ Jewish_minority_relation : minorities +]
 
 German Minority: [+ German_minority_relation : minorities +]
 
-Ukrainian Support: [+ Ukrainian_government_popularity : +]
+Ukrainian Support: [+ Ukrainian_government_popularity : national_unity_popularity +]
 
 
 = Ukrainian National Union status
