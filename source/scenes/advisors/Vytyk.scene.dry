@@ -32,7 +32,7 @@ However, such a role wasn't without excesses. **Controlling oil industry**, Seme
 - @root: Return to main
 
 @Oil_baron
-title: Oil Baron
+title: Corruption: Oil Baron
 subtitle: Strongly boosts popularity, makes advisor irremovable from Upper Division and leadership deck for a year. 
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?][? if iron_front_formed == 0 : The Iron Front has not yet been formed. ?]
 on-arrival: advisor_action_timer = 6; rb_strength += 200*workers_spd/(workers_spd+workers_kpd+workers_nsdap+workers_z+workers_dnvp+workers_other);
