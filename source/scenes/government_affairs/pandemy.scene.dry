@@ -25,4 +25,4 @@ Current interior police loyalty: [+ interior_police_loyalty : loyalty +]
 
 @building_the_hospitals
 subtitle: -2 budget
-on-arrival: budget -= 2; pandemy -= 1;
+on-arrival: budget -= 2; epidemic -= 1;
