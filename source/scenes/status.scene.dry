@@ -145,19 +145,15 @@ Prussian police loyalty: [+ prussian_police_loyalty : loyalty +]
 
 (if the election were to be held now):
 
-SPD: [+ spd_votes +]%
+National Democratic Party: [+ spd_votes +]%
 
-Z + BVP: [+ z_votes +]%
+Radical Party: [+ z_votes +]%
 
-KPD: [+ kpd_votes +]%
+Social-democratic Party: [+ kpd_votes +]%
 
-DDP: [+ ddp_votes +]%
+Social-Christian Party: [+ ddp_votes +]%
 
-DVP: [+ dvp_votes +]%
-
-DNVP: [+ dnvp_votes +]%
-
-NSDAP: [+ nsdap_votes +]%
+Ukrainian People's Party: [+ dvp_votes +]%
 
 Others: [+ other_votes +]%
 
