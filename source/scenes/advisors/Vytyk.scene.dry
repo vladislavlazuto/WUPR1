@@ -29,7 +29,7 @@ However, such a role wasn't without excesses. Controlling oil industry, Semen Vy
 - @bolster_the_left
 - @root: Return to main
 
-@Oil)baron
+@Oil_baron
 title: Oil Baron
 subtitle: Strongly boosts popularity, makes advisor irremovable from Upper Division and leadership deck for a year. 
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?][? if iron_front_formed == 0 : The Iron Front has not yet been formed. ?]
