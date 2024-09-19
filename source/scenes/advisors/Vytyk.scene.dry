@@ -38,7 +38,7 @@ on-arrival: advisor_action_timer = 6; rb_strength += 200*workers_spd/(workers_sp
 We have recruited more members into the Reichsbanner.
 
 
-@form_iron_front
+@Ukrainian_sobornyk
 title: Forming the Iron Front
 choose-if: advisor_action_timer == 0 and iron_front_formed == 0 and nazi_urgency >= 2
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?][? if iron_front_formed : The Iron Front has already been formed. ?][? if nazi_urgency < 2 : The party does not yet see the danger of the Nazis. ?]
@@ -46,7 +46,7 @@ on-arrival: advisor_action_timer = 6; rb_strength += 50; nazi_urgency += 1
 go-to: confronting_nazis.iron_front 
 
 
-@nazi_urgency
+@negotiate_with_second_international
 title: Warning about the Nazis
 subtitle: By warning the party about the Nazis, we can spur our members to action.
 choose-if: advisor_action_timer == 0
@@ -54,3 +54,10 @@ unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +
 on-arrival: advisor_action_timer = 6; nazi_urgency += 1; rb_militancy += 0.01; nsdap_workers -= 4*(1-dissent);
 
 We have begun a propaganda campaign to warn our members away from the Nazis.
+
+@bolster_the_left
+title: Warning about the Nazis
+subtitle: By warning the party about the Nazis, we can spur our members to action.
+choose-if: advisor_action_timer == 0
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
+on-arrival: advisor_action_timer = 6; nazi_urgency += 1; rb_militancy += 0.01; nsdap_workers -= 4*(1-dissent);
