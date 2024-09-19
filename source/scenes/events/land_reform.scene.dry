@@ -1,0 +1,26 @@
+title: Land Reform
+new-page: true
+is-card: true
+tags: govt_affairs
+on-arrival: month_actions += 1
+view-if: epidemic >= 1
+frequency: 1000
+card-image: img/Pandemic.jpg
+
+= Typhys epidemy
+
+Epidemy of typhus ravages the land of Western Ukraine. With the destructions on unseend scale during the Great War fighting, there is nearly no Hospitals left. 
+
+- @Hire_medics: By hiring new medics we can prevent the most harmful consequences of the epidemy
+- @building_the_hospitals: Expand our hospital beds space, restore destroyed hospitals and open new military hospitals
+- @root: Take no action for now.
+- @easy_discard
+
+@Hire_medics
+subtitle: -1 budget
+on-arrival: budget -=1; medics += 20
+
+
+@building_the_hospitals
+subtitle: -2 budget
+on-arrival: budget -= 2; epidemic -= 1;
