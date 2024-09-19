@@ -5,7 +5,7 @@ max-visits: 3
 is-card: true
 tags: military_affairs
 view-if: year = 1918
-card-image: img/flags.jpg
+card-image: img/SichRiflemen.jpg
 frequency: 200
 
 
@@ -28,7 +28,7 @@ on-arrival: Galician_army_strength += 6500; Galician_officers += 50; Equipment +
 
 @approach_austria
 subtitle: The safe option
-on-arrival: Galician_army_strength += 2000; Galician_officers += 20; Equipment += 1;
+on-arrival: Galician_army_strength += 2000; Galician_officers += 20; Equipment += 1; 
 
 
 @switch_sides

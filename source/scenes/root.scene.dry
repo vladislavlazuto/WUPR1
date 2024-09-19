@@ -304,7 +304,7 @@ Q.catholics_dnvp = 5;
 Q.catholics_nsdap = 0;
 Q.catholics_other = 12;
 
-
+// Ukrainian_Parties
 
 Q.UNDP_r = 44;
 Q.RadicalParty_r = 10;
@@ -318,7 +318,10 @@ Q.USDPVydil = 2;
 Q.RadicalPartyVydil = 2;
 Q.UNDPVydil = 2;
 
+// Various vars for events
 
+Q.medics = 70;
+Q.epidemy = 4;
 
 // diff from prev
 Q.old_spd_r = 26;
