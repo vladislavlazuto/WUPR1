@@ -16,7 +16,6 @@ go-to: Crises_menu
 - @Epidemic
 - @Hunger
 - @Housing_and_clothes_crisis
-- @Hunger
 - @Economic_collapse
 
 @Epidemic
