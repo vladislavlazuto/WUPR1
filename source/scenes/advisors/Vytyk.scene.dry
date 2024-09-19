@@ -39,16 +39,14 @@ We have recruited more members into the Reichsbanner.
 
 
 @Ukrainian_sobornyk
-title: Forming the Iron Front
-choose-if: advisor_action_timer == 0 and iron_front_formed == 0 and nazi_urgency >= 2
+title: Agitate for Ukrainian reunification
+subtitle: Boosts support for Ukrainian reunification with Ukrainian People's Republic at the cost of the National Union stability. 
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?][? if iron_front_formed : The Iron Front has already been formed. ?][? if nazi_urgency < 2 : The party does not yet see the danger of the Nazis. ?]
 on-arrival: advisor_action_timer = 6; rb_strength += 50; nazi_urgency += 1
-go-to: confronting_nazis.iron_front 
-
 
 @negotiate_with_second_international
-title: Warning about the Nazis
-subtitle: By warning the party about the Nazis, we can spur our members to action.
+title: Negotiate with the Second International
+subtitle: By pursuing closer connections with European socialists we can influence the politics of their states.
 choose-if: advisor_action_timer == 0
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
 on-arrival: advisor_action_timer = 6; nazi_urgency += 1; rb_militancy += 0.01; nsdap_workers -= 4*(1-dissent);
@@ -56,8 +54,8 @@ on-arrival: advisor_action_timer = 6; nazi_urgency += 1; rb_militancy += 0.01; n
 We have begun a propaganda campaign to warn our members away from the Nazis.
 
 @bolster_the_left
-title: Warning about the Nazis
-subtitle: By warning the party about the Nazis, we can spur our members to action.
+title: Bolster the Left
+subtitle: Raises left-wing strength in the National Union and the influence of Social-Democratic left. 
 choose-if: advisor_action_timer == 0
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
 on-arrival: advisor_action_timer = 6; nazi_urgency += 1; rb_militancy += 0.01; nsdap_workers -= 4*(1-dissent);
