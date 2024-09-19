@@ -17,30 +17,34 @@ go-to: Crises_menu
 - @Hunger
 - @Housing_and_clothes_crisis
 - @Economic_collapse
+- @Winter_is_coming
 
-@Epidemic_crisis
+@Epidemic_crisis: Typhys pandemic
 max-visits: 1
 go-to: Crises_menu
 
 Typhys and spanish flu pandemics are killing thousands of Ukrainians, while the most hospitals of Galicia are destroyed from Great War battles. For the army, lack of hospitals, equipment and medics severely harms fighting abilities. If we wont adress this, more Ukrainians will die, and army could just not come to the battlefield...
 
-@Hunger
+@Hunger: Looming danger of hunger...
 max-visits: 1
 go-to: Crises_menu
 
 We are in a dangerous risk of Hunger rebellions. The last Russian offensive left most of the land unharvested and unsown. If we won't solve the sowing crisis and won't find source of food imports, hunger will be with us for a long time..
 
-@Housing_and_clothes_crisis
+@Housing_and_clothes_crisis: Housing and clothes crisis
 max-visits: 1
 go-to: Crises_menu
 
 During the hostilities in the region, dozens of cities and towns were destroyed, 650 villages were almost completely burned, 200,000 residential buildings and 233,000 farm buildings were destroyed, which made up more than 40% of the entire residential and farm massif. Nearly half of regions population will meet this year homeless. While the winter breaths in our neck, we must be prepared to act to provide at least warm clothing to the population.
 
-@Economic_collapse
+@Economic_collapse: Economic collapse
 max-visits: 1
 go-to: Crises_menu
 
 Galician Economy was mainly held by Ukrainian Cooperation, big landowners and Polish and Germans bourgoise. Destruction of the cities and villages destroyed most of the production. While unemployement not the biggest problem during the war, if we won't manage to start agrarian and industrial reconstruction, and revive construction sector, consequences could be dire...
+
+@Winter_is_coming: Winter is coming...
+
 
 **New mechanics are activated**. Every month, up to two thousand soldiers will die from pandemic, and quality of life will drop. Keep amount of medics in proportion 1:100, upgrade your equipment and build new hospitals to mitigate the deaths. 
 
