@@ -321,7 +321,7 @@ Q.UNDPVydil = 2;
 // Various vars for events
 
 Q.medics = 70;
-Q.epidemy = 4;
+Q.epidemic = 4;
 
 // diff from prev
 Q.old_spd_r = 26;
