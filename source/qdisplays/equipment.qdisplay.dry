@@ -1,0 +1,6 @@
+
+(..0) Partisan equipment
+(1..4) Poorly armed 
+(4..7) Regular force
+(7..10) A modern army
+(10..) State-of-the-art armed forces 
