@@ -323,6 +323,13 @@ Q.UNDPVydil = 2;
 Q.medics = 70;
 Q.epidemic = 4;
 
+// Land Reform
+
+Q.land_reform = 0 
+Q.land_reform_radical_plan
+Q.land_reform_social_democratic_plan
+Q.land_reform_compromise_plan
+
 // diff from prev
 Q.old_spd_r = 26;
 Q.old_kpd_r = 9;
