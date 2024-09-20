@@ -5,7 +5,7 @@ max-visits: 1
 tags: event
 new-page: true
 card-image: img/BarykadaLviv.jpg
-go-to: land_reform
+go-to: agrarian_reformation
 
 = Land Reform
 
@@ -17,7 +17,7 @@ Agrarian reform is the only thing that can heal the wounds of inequality and pov
 
 Peasant population forms the most substantial social base for new Ukrainian State. It is the liberation of peasant of national and social oppression that mobilized the people for the Revolution. It is expected from us to introduce Land Reform as soon as possible.
 
-@land_reform
+@agrarian_reformation
 
 - @The_current_situation: Situation at the countryside
 - @Administrative_control: State of our bureucracy
