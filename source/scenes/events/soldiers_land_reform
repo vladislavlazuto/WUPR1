@@ -1,0 +1,33 @@
+title: Coup in Prussia
+subtitle: The Chancellor attempts to overthrow the Prussian government.
+view-if: land_reform_progress >= 3
+on-arrival: prussian_coup_seen = 1
+new-page: true
+tags: event
+max-visits: 1
+
+= Soldiers are deserting!
+
+New world is here! Now Ukrainian Republic is declared, the peasants can live freely. Thats at least what a soldier thinks. Majorly coming from peasant class, Ukrainian soldiers have the illusion of completion of the revolution and want to go to their home to participate in land division. Nobody wants to be left with nothing. 
+
+But the revolution is not over. Polish forces are attacking. What we can expect from Romanians and Hungarians? If we won't defend the Republic, we will not have nor land nor freedom. 
+
+- @Crackdown_on_deserters: Crackdown on desertions
+- @Strictly_bureucratize_land_reforms: Strictly bureucratize land reform
+- @Let_it_be: Let it Be.
+- @Send_the_police: Send the police against peasant self-redistribution of land
+
+
+@Crackdown_on_deserters
+title: Fight against the overthrow attempt!
+subtitle: Labor will call a general strike. The Reichsbanner and the loyal elements of the Prussian police will resist the coup.
+unavailable-subtitle: We do not have the forces to resist.
+choose-if: rb_strength*rb_militancy >= 200
+
+The Reichswehr and Stahlhelm are already surrounding Berlin, and the SA is supporting them. This could be civil war. We do realize that, correct? 
+
+@Strictly_bureucratize_land_reforms
+
+@Let_it_be
+
+Send_the_police
