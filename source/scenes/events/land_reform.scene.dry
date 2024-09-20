@@ -39,3 +39,12 @@ on-arrival: budget -= 2; epidemic -= 1;
 - @NationalDemocratic_land_reform
 - @Compromise_land_reform
 
+
+
+@RadicalParty_land_reform
+
+@SocialDemocratic_land_reform
+
+@NationalDemocratic_land_reform
+
+@Compromise_land_reform
