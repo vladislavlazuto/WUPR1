@@ -1,7 +1,6 @@
 title: Coup in Prussia
 subtitle: The Chancellor attempts to overthrow the Prussian government.
-view-if: land_reform_progress >= 3
-on-arrival: prussian_coup_seen = 1
+view-if: year = 1918
 new-page: true
 tags: event
 max-visits: 1
