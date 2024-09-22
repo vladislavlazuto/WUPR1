@@ -18,19 +18,14 @@ But the revolution is not over. Polish forces are attacking. What we can expect 
 
 
 @Crackdown_on_deserters
-title: Fight against the overthrow attempt!
-subtitle: Labor will call a general strike. The Reichsbanner and the loyal elements of the Prussian police will resist the coup.
-unavailable-subtitle: We do not have the forces to resist.
-choose-if: rb_strength*rb_militancy >= 200
-
-The Reichswehr and Stahlhelm are already surrounding Berlin, and the SA is supporting them. This could be civil war. We do realize that, correct? 
+Subtitle: Use our police forces to crackdown on deserters
 
 @Strictly_bureucratize_land_reforms
-title: If we take necessary actions to bureucratize the system and guarantee any soldier equal portions of land, we can limit the desertion
+Subtitle: -4 Resources; If we take necessary actions to bureucratize the system and guarantee any soldier equal portions of land, we can limit the desertion
 
 @Let_it_be
 title: let only patriots stay. Thus, our army would be more disciplined
 
 Send_the_police
-title: Rather than cracking down soldliers-deserters, we should do everything necessary to stop illegal land redistribution. Send the police.
+subtitle: -2 Resources; Rather than cracking down soldliers-deserters, we should do everything necessary to stop illegal land redistribution. Send the police.
 
