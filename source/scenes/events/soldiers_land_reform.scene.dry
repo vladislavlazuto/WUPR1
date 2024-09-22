@@ -1,5 +1,5 @@
-title: Coup in Prussia
-subtitle: The Chancellor attempts to overthrow the Prussian government.
+title: Soldiers want the Land Reform
+subtitle: The army deserts to take the Land in illegal redistributions
 view-if: year = 1918
 new-page: true
 tags: event
@@ -26,6 +26,6 @@ Subtitle: -4 Resources; If we take necessary actions to bureucratize the system 
 @Let_it_be
 title: let only patriots stay. Thus, our army would be more disciplined
 
-Send_the_police
+@Send_the_police
 subtitle: -2 Resources; Rather than cracking down soldliers-deserters, we should do everything necessary to stop illegal land redistribution. Send the police.
 
