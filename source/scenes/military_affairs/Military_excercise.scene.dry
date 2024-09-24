@@ -18,7 +18,7 @@ While some of our forces aren't fighting, we can organize proper excercises and 
 - @root: Return card
 
 @excercise
-subtitle: -1000 resources
+subtitle: -1 budget
 choose-if: Galician_army_strength => 1000
 unavailable-subtitle: Not enough army strength.
 on-arrival: Experience += 2*Galician_officers
