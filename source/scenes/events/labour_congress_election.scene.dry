@@ -2,6 +2,7 @@ title: Labour Congress
 subtitle: Ukrainian People's Republic holds its first Parliamentary elections
 view-if: year = 1919 
 tags: event
+max-visits: 1
 
 
 Ukraine holds its first ever Parliamentary elections. Directory, after quickly the power against Hetmanate, declared the immediate need for the elections. Under the new electoral law, women will be eligeble for vote. However, Republic also implemented confusing curia system, where amount of deputies is pre-determined for every class. Peasants will elect 378 deputies. 88 will be elected from workers, 33 from labour intelligentsia, 20 from Railway workers and 10 from postal and telegraph workers. However, under our autonomous status and ongoing negotiation process about Ukraine's unification we still have leverage what we should do. Moreover, and thats far bigger constraint, there is only 6 days for organizing elections, campaigning, counting votes, and travel to Kyiv, (which takes 1-2 days)
@@ -13,7 +14,7 @@ Ukraine holds its first ever Parliamentary elections. Directory, after quickly t
 @sending_the_delegation
 subtitle: we will send the delegation without voting powers just to negotiate the question of Unification of Ukraine
 
-The delegation still was given voting powers on the constituent decisions about Ukraine's Government
+The delegation still was given voting powers on the constituent decisions about Ukraine's Government.
 
 @postponing_elections
 subtitle: We will still send the delegation (without voting powers), however we will organize regional and national elections as soon as possible (The elections will be held when control is >70)
