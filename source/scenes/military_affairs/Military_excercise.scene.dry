@@ -27,14 +27,3 @@ on-arrival: Experience += 2*Galician_officers
 @no_trainings
 
 
-
-@switch_sides
-subtitle: -2 resources. {!<p style="color:blue;">Galician legion on the side of Entente will be formed</p>!} 
-choose-if: resources >= 2
-unavailable-subtitle: Not enough resources.
-on-arrival: resources -= 2; Galician_legion = 1; Eqiopment -= 1;
-
-
-@negotiate_with_Austria
-subtitle: Honor +1
-on-arrival: German_minority_relation += 1; 
