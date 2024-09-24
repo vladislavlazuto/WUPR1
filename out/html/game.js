@@ -16,7 +16,7 @@
     // Add your custom code here.
   };
 
-  var TITLE = "Social Democracy: An Alternate History" + '_' + "Autumn Chen";
+  var TITLE = "Western Ukrainian People's Republic: The Game" + '_' + "Vladyslav Starodubtsev. Inspired by: Autumn Chen";
 
   // the url is a link to game.json
   // TODO; 
