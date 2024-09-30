@@ -23,7 +23,7 @@ Suffering defeat under Lviv put us in a precarious conditions. While government 
 subtitle: -3 budget
 choose-if: budget >= 3 
 unavailable-subtitle: Not enough budget.
-on-arrival: Galician_army_strength -= 1000 and Ukrainian_control += 5 and [? if Galician_officers >= 1000 or Equipment >= 3 : Galician_army_strength += 2500 ?]
+on-arrival: Galician_army_strength -= 1000
 go-to: second_phase
 
 
